@@ -2,7 +2,31 @@
     position: fixed;
     top: 0;
     display: flex;
+    background-color: white;
 }
+
+#header-img{
+    position: left;
+    width: 400px;
+}
+
+#nav-bar{
+    display: inline;
+    padding-left: 800px;
+}
+
+#linkFeatures{
+    padding-left: 100px;
+}
+
+#linkHowItWorks{
+    padding-left: 100px;
+}
+
+#linkPricing{
+    padding-left: 100px;
+}
+
 
 #Pricing {
     display: flex;
@@ -14,7 +38,23 @@
     float: none;
     width: 100%;
     }
-
-body{
 }
 
+#tittle{    
+    margin-top: 80px;
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+.featureImages{ 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.FeatureInfo{
+    float: right;
+}
