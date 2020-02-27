@@ -27,11 +27,9 @@
     padding-left: 100px;
 }
 
-
-#Pricing {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+#submit{
+    background: orange;
+}
 
 @media screen and (max-width: 200px) {
     .mediaquery{
@@ -56,5 +54,40 @@
 }
 
 .FeatureInfo{
-    float: right;
+    /* float: right; */
+}
+
+.product{
+border-style: solid;
+border-width: 1px;
+margin: 10px;
+text-align: center;
+
+
+}
+#Pricing{
+display: flex;
+
+justify-content: center;
+}
+
+#valve{
+justify-content: center;
+}
+
+button{
+    background: orange;
+}
+iframe{
+    padding-left: 30%;
+    border-style: hidden;
+}
+
+#Features{
+padding-left: 30%;
+padding-right: 30%;}
+
+footer{
+    text-align: right;
+    background: rgba(104, 104, 126, 0.473);
 }
