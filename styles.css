@@ -1,0 +1,20 @@
+#header{
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+#Pricing {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+@media screen and (max-width: 200px) {
+    .mediaquery{
+    float: none;
+    width: 100%;
+    }
+
+body{
+}
+

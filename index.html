@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="mediaquery">
     <header id="header">
         <img src="./images/trombone.png" alt="" id="header-img">
         <nav id="nav-bar">
@@ -16,28 +17,66 @@
             <a class="nav-link" href="#Pricing">Pricing</a>
         </nav>
     </header>
-   
+
     <h1>Handcrafted, home-made masterpieces</h1>
 
     <section id="Features" style='height: 1000px;'>
         <p>Premium Materials
-            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.</p>
     </section>
     <section id="HowItWorks">
         <p>Fast Shipping
-            We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns
+            if you are not satisfied.</p>
     </section>
-    <section id="Pricing">
-        <p>Quality Assurance
-            For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-    </section>
-    <iframe  width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" ></iframe>
 
-    <form id="form">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"></iframe>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
         <label id="labelEmail">E-mail</label>
-        <input id="email" type="email" placeholder="Enter your E-mail" >
+        <input id="email" type="email" placeholder="Enter your E-mail">
+        <input type="submit" id="submit" value="GET STARTED">
     </form>
 
+    <section id="Pricing">
+        <div class="product" id="tenor">
+            <div class="level">Tenor Trombone</div>
+            <h2>$600</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+            <button>SELECT</button>
+        </div>
+        <div class="product" id="bass">
+            <div class="level">BASS TROMBONE</div>
+            <h2>900</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+            <button>SELECT</button>
+        </div>
+
+        <div class="product" id="valve">
+            <div class="level">VALVE TROMBONE</div>
+            <h2>$1200</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+            <button>SELECT</button>
+        </div>
+
+    </section>
+    <div></div>
 </body>
 
 </html>
